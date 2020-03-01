@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jessica's Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="jess_style.css">
+
+</head>
+<body>
+	<div>
+		<h1 class = "title">Jessica's Tic Tac Toe Game </h1>
+		<h2 id = "turn">Welcome to my game of tic tac toe!</h2>
+		<p>The results of the game will be displayed above.
+			In this game you will be going against an unbeatable AI so goodluck! 
+			After you are done, you can restart the game by pressing "Replay."</p>
+		<table>
+			<tr>
+				<td><button class="cell" id="0"></button></td>
+				<td><button class="cell" id="1"></button></td>
+				<td><button class="cell" id="2"></button></td>
+			</tr>
+			<tr>
+				<td><button class="cell" id="3"></button></td>
+				<td><button class="cell" id="4"></button></td>
+				<td><button class="cell" id="5"></button></td>
+			</tr>
+			<tr>
+				<td><button class="cell" id="6"></button></td>
+				<td><button class="cell" id="7"></button></td>
+				<td ><button class="cell" id="8"></button></td>
+			</tr>
+		</table>
+		<button id = "replay" onClick="startGame()">Replay</button>
+		<h3 id = "moves">Your moves will be displayed below: </h3>
+	</div>
+<script src="jess_script.js"></script>
+</body>
+</html>

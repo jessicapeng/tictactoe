@@ -1,0 +1,127 @@
+/*Jessica's CSS*/
+
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Crimson+Text&display=swap");
+
+/*Page*/
+h1
+{
+  font-family: "Cinzel";
+  margin-left: -5%;
+}
+
+body
+{
+    background-color: #fedbff;
+}
+  
+p
+{
+    margin-left: -5%;
+    width: 40%;
+    font-family: "Crimson Text";
+}
+
+div /*Moves game to the middle of screen*/
+{
+    display: inline-block;
+    margin-left: 40%;
+    
+}    
+
+div 
+{ 
+    display: inline-block;
+    margin-left: 40%;   
+}
+
+.cell:hover,
+.cell:focus 
+{
+    background:pink;
+}
+
+.cell:focus 
+{
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.cell:active {
+    transform: scale(0.99);
+}
+
+.cell
+{
+display: inline-block;
+border-color: black;
+border:  2px solid #333;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Crimson Text", cursive, sans-serif;
+	font-size:  70px;
+	cursor: pointer;
+background-color:lavender;
+}
+
+table {
+  margin-bottom: 1.5em;
+}
+
+
+
+#turn
+{
+  font-family: "Crimson Text";
+}
+
+#moves
+{
+  font-family: "Crimson Text";
+}
+
+#replay
+{
+  margin: 5px;
+  background-color: #c734c4;
+  border: 10px black;
+  border-radius: 12px;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  align: center;
+  text-align: center;
+  box-shadow: 5px 5px black;
+
+}
+
+#replay:hover
+{
+  background-color: white;
+  color: black;
+}
+
+/*Responsiveness*/
+
+@media only screen and (max-width: 1000px) {
+ 
+  body {
+    background-color: rgb(163, 218, 236);
+  }
+  p
+  {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+ 
+
+  p
+  {
+    width: 70%;
+  }
+
+}
